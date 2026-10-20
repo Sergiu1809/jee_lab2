@@ -60,4 +60,11 @@ public class Student {
         }
         return (double) suma / note.size();
     }
+
+    @Override
+    public String toString() {
+        return grupa + " " + nume + " " + prenume + " note=" + note
+                + " medie=" + medie() + " restante=" + numarRestante();
+    }
+
 }

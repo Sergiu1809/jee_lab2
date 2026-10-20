@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Probleme {
+public class Problema1 {
 
     public static void main(String[] args) {
         List<Integer> x = new ArrayList<>();
